@@ -16,38 +16,35 @@ body {
 }
 
 img {
-    display: inline-block;
+    display: block;
     max-width: 100%;
     height: auto;
-    padding: 0;
-    margin: 0;
 }
 
 .container {
     width: 900px;
     margin: 0 auto;
+    font-size: 0;
 }
 
 .navigation {
-    height: 190px;
-    padding: 72px 166px 100px 166px;
-}
-
-.site-nav li {
-    display: inline-block;
-}
-
-.site-nav li:not(:last-child) {
-    margin-right: 100px;
+    margin: 72px 166px 100px 166px;
+    text-align: center;
 }
 
 .site-nav {
     text-transform: uppercase;
     padding: 0;
     margin: 0;
-    border: 0;
-    width: 568px;
-    /* text-align: justify; */
+}
+
+.site-nav li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.site-nav li:not(:last-child) {
+    margin-right: 100px;
 }
 
 .site-nav a {
@@ -62,12 +59,7 @@ img {
 .main-div {
     display: inline-block;
     width: 420px;
-    margin-left: -4px;
-    padding: 0;
-}
-
-.main-div:not(:nth-last-child(-n + 2)) {
-    margin-bottom: 130px;
+    font-size: 14px;
 }
 
 .main-div p {
@@ -75,14 +67,14 @@ img {
     padding: 0;
 }
 
-.main-div:not(:nth-child(2n)) {
-    margin-right: 60px;
-    margin-left: 0;
+.main-div:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 130px;
 }
 
-/* .main-div:not(:nth-child(1n)) {
-    margin-left: -4px;
-} */
+.main-div:not(:nth-child(2n)) {
+    margin-right: 60px;
+}
+
 .text-nav {
     font-family: 'Ubuntu', 'Arial', sans-serif;
     font-size: 14px;
@@ -92,7 +84,7 @@ img {
 }
 
 .main-div .text-nav {
-    margin: 30px 0 30px 0;
+    margin: 30px 0;
 }
 
 .state-head {
