@@ -28,8 +28,11 @@ img {
 }
 
 .navigation {
-    margin: 72px 166px 100px 166px;
-    text-align: center;
+    margin: 0 auto;
+    /* text-align: center; */
+    margin-top: 72px;
+    margin-bottom: 100px;
+
 }
 
 .site-nav {
@@ -52,7 +55,8 @@ img {
     color: #626262;
 }
 
-.site-nav a:hover {
+.site-nav a:hover,
+.site-nav a:focus {
     color: #03a9f4;
 }
 
