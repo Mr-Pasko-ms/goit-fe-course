@@ -1,4 +1,7 @@
- html {
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400&display=swap);
+
+html {
     box-sizing: border-box;
 }
 
@@ -8,8 +11,10 @@
     box-sizing: inherit;
 }
 
-body {
-    font-family: "Playfair Display", "Times New Roman", serif;
+body,
+button,
+p {
+    font-family: "Playfair Display", serif;
     font-size: 14px;
     line-height: 24px;
     color: #626262;
@@ -21,90 +26,75 @@ img {
     height: auto;
 }
 
-.container {
+.wrapper {
     width: 900px;
     margin: 0 auto;
     font-size: 0;
 }
 
-.navigation {
-    margin: 0 auto;
+.navigation ul {
     text-align: center;
-    margin-top: 72px;
-    margin-bottom: 100px;
-
 }
 
-.site-nav {
-    text-transform: uppercase;
-    padding: 0;
-    margin: 0;
-}
-
-.site-nav li {
+.navigation li {
     display: inline-block;
     font-size: 14px;
+    margin-top: 72px;
+    margin-bottom: 100px;
 }
 
-.site-nav li:not(:last-child) {
+.navigation li:not(:last-child) {
     margin-right: 100px;
 }
 
-.site-nav a {
+.navigation a {
     text-decoration-line: none;
-    color: #626262;
+    text-transform: uppercase;
+    color: inherit;
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
+.navigation a:hover {
     color: #03a9f4;
 }
 
-.main-div {
+.state {
     display: inline-block;
     width: 420px;
     font-size: 14px;
-}
-
-.main-div p {
-    margin: 0;
-    padding: 0;
-}
-
-.main-div:not(:nth-last-child(-n + 2)) {
     margin-bottom: 130px;
 }
 
-.main-div:not(:nth-child(2n)) {
+.state:nth-last-child(-n+2) {
+    margin-bottom: 55px;
+}
+
+.state:not(:nth-child(2n)) {
     margin-right: 60px;
 }
 
-.text-nav {
-    font-family: 'Ubuntu', 'Arial', sans-serif;
+.state-category {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     line-height: 17px;
     color: #b4ad9e;
     text-transform: uppercase;
-}
-
-.main-div .text-nav {
     margin: 30px 0;
 }
 
 .state-head {
     font-size: 30px;
     line-height: 36px;
-    margin: 0 0 36px 0;
+    margin-bottom: 36px;
 }
 
 .load-more {
-    margin: 52px 380px 70px 358px;
+    display: block;
+    margin: 0 auto;
     padding: 22px 34px;
     border: 1px solid #989898;
     background-color: transparent;
     cursor: pointer;
     font-size: 20px;
     line-height: 24px;
+    margin-bottom: 75px;
 }
-
-  
