@@ -274,13 +274,14 @@ section h3 {
 
 .footer-form {
     display: flex;
+    width: 380px;
+    justify-content: flex-end;
 }
 
 .input-text {
     border: 1px solid #e5e5e5;
     padding: 14px;
     text-transform: capitalize;
-    min-width: 230px;
     font: 700 14px/18px 'Montserrat', san-serif;
     color: #333333;
     text-transform: unset;
@@ -295,13 +296,11 @@ section h3 {
 
 .intut-submit {
     border: none;
-    min-width: 152px;
     text-transform: uppercase;
     text-align: center;
-    padding: 14px;
+    padding: 14px 32px;
     background-color: #95e1d3; 
     font: 700 14px/18px 'Montserrat', san-serif;
     color: #ffffff;
     cursor: pointer;
 }
-  
