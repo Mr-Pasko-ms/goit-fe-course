@@ -95,13 +95,11 @@ section h2 span {
 
 section h2::after {
     display: block;
-    margin: 0 auto;
+    margin: 40px auto 64px;
     content: '';
     background-color: #f38181;
     width: 60px;
-    height: 3px; 
-    margin-top: 40px;
-    margin-bottom: 64px;    
+    height: 3px;    
 }
 
 .services-sections {
@@ -170,10 +168,9 @@ section h3 {
 
 .our-team p {
     text-align: center;
-    margin: 0 130px;
+    margin: 0 130px 92px;
     font: 400 15px/24px 'Roboto', san-serif;
     color: #999999;
-    margin-bottom: 92px;
 }
 
 .team-sections {
@@ -252,24 +249,24 @@ section h3 {
     text-transform: capitalize;
 }
 
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 64px;
-    font: 400 14px/18px 'Montserrat', san-serif;
-    color: #333333;
-}
-
-.footer-content a {
-    color: #f38181;
-}
-
-.footer::before {
+.our-team::after {
     display: block;
     content: '';
     background-color: #e5e5e5;
     height: 1px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    font: 400 14px/18px 'Montserrat', san-serif;
+    color: #333333;
+}
+
+.footer a {
+    color: #f38181;
 }
 
 .footer-form {

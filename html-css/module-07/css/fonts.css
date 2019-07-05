@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'WisdomScript';
+    src: url('../fonts/WisdomScript/WisdomScript.woff') format('woff'),
+         url('../fonts/WisdomScript/WisdomScript.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/MontserratBold/MontserratBold.woff') format('woff'),
+         url('../fonts/Montserrat/MontserratBold/MontserratBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/MontserratRegular/MontserratRegular.woff') format('woff'),
+         url('../fonts/Montserrat/MontserratRegular/MontserratRegular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoSlabRegular';
+    src: url('../fonts/RobotoSlabRegular/RobotoSlabRegular.woff') format('woff'),
+         url('../fonts/RobotoSlabRegular/RobotoSlabRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DroidSerifItalic';
+    src: url('../fonts/DroidSerifItalic/DroidSerifItalic.woff') format('woff'),
+         url('../fonts/DroidSerifItalic/DroidSerifItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
