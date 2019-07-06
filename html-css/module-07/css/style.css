@@ -48,7 +48,7 @@ h1 {
 }
 
 .site-nav li {
-    font: 400 14px/41px 'Montserrat', sans-serif;
+    font: 700 14px/41px 'Montserrat', sans-serif;
     color: #222222;
     text-transform: uppercase;
     margin-right: 40px;
@@ -191,7 +191,7 @@ h1 {
 }
 
 .input-required:valid {
-    outline: 1px solid green;
+    outline: 2px solid green;
 }
 
 .input-required:invalid {
