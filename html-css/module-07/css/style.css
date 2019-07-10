@@ -108,7 +108,7 @@ h1 {
 }
 
 .services-item li p {
-    font: 14px/17px 'RobotoSlabRegural', serif;
+    font: 14px/17px 'RobotoSlabRegular', serif;
     color: #777777;
 }
 
@@ -194,7 +194,7 @@ h1 {
     outline: 2px solid green;
 }
 
-.input-required:invalid {
+.input-required:focus:invalid {
     outline: 1px solid red;
 }
 
