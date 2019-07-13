@@ -80,6 +80,10 @@ figcaption p {
         padding-bottom: 4rem;
     }
 
+    .partners h2 {
+        margin-bottom: 4rem;
+    }
+
     .partners-item {
         display: flex;
         flex-wrap: wrap;
