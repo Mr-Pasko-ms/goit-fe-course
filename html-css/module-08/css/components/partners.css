@@ -1,5 +1,5 @@
 .partners {
-    padding: 6.8rem 0;
+    padding: 6.8rem 0 5.8rem;
 }
 
 .partners h2 {
@@ -15,35 +15,48 @@
 }
 
 .partner-image {
-    margin-bottom: 2rem;
     border-radius: 50%;
 }
 
-/* .partner-foto {
+.partner-foto {
     position: relative;
-    width: 12.2rem;
+    width: 12rem;
     height: 12.2rem;
     margin: 0 auto;
+    margin-bottom: 2rem;
 }
-.partner-image::after {
+
+.partner-foto-icon {
     position: absolute;
-    display: block;
-    content: '';
-    width: 3.2rem;
-    height: 3.2rem;
+    width: 4rem;
+    height: 4rem;
     border: 0.4rem solid var(--main-color);
     border-radius: 50%;
     bottom: 0;
     right: 0;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #ff4e50;
-} */
+}
 
-/* .partner-1::after {
+.partner-1 {
     background-color: #ff4e50;
     background-image: url(../../icons/partner-1-icon.png);
-} */
+}
+
+.partner-2 {
+    background-color: #ffa507;
+    background-image: url(../../icons/partner-2-icon.png);
+}
+
+.partner-3 {
+    background-color: #1cd7ad;
+    background-image: url(../../icons/partner-3-icon.png);
+}
+
+.partner-4 {
+    background-color: #4e73db;
+    background-image: url(../../icons/partner-4-icon.png);
+}
 
 figcaption h3 {
     font-size: 1.4rem;
@@ -57,14 +70,14 @@ figcaption p {
     line-height: 1.7rem;
 }
 
-.partners button {
-    margin-bottom: 5.8rem;
-}
-
 @media (min-width: 48rem) {
    
     .container {
         width: 49rem;
+    }
+
+    .partners {
+        padding-bottom: 4rem;
     }
 
     .partners-item {
@@ -86,10 +99,6 @@ figcaption p {
     }
 
     .partners-item-li {
-        margin-bottom: 4rem;
-    }
-
-    .partners button {
         margin-bottom: 4rem;
     }
 }
