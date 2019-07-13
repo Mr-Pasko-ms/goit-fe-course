@@ -1,0 +1,92 @@
+.promo {
+    padding-top: 2rem;
+    background: linear-gradient(rgba(26, 25, 21, 0.3) 100%, rgba(26, 25, 21, 0.3) 100%), url(../../images/baner-image-mobile.jpg) center/cover no-repeat;
+}
+
+.registration {
+    display: flex;
+    justify-content: center;
+}
+
+.registration li {
+    margin-bottom: 12rem;
+}
+
+.registration button {
+    border-color: transparent;
+}
+
+.registration li:hover button {
+    border-color: var(--main-color);
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    margin-bottom: 3.8rem;
+}
+
+.promo-description h2 {
+    font-size: 3rem;
+    line-height: 3.6rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.promo-description p {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.promo-description button {
+    margin-bottom: 14rem;
+}
+
+@media (min-width: 48rem) {
+    
+    .promo {
+        padding: 3.6rem;
+        background: linear-gradient(rgba(26, 25, 21, 0.3) 100%, rgba(26, 25, 21, 0.3) 100%), url(../../images/baner-image-tablet.jpg) center/cover no-repeat;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    h1 {
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+
+    .registration li {
+        margin-bottom: 14.8rem;
+    }
+
+    .promo-description h2 {
+        font-size: 5.2rem;
+        line-height: 6.2rem;
+        margin-bottom: 3.6rem;
+    }
+
+    .promo-description p {
+        font-size: 2.4rem;
+        line-height: 2.9rem;
+        margin-bottom: 3.8rem;
+    }
+
+    .section-button {
+        padding: 1.4rem 2rem;
+    }
+}
+
+@media (min-width: 58.7rem) {
+    .promo {
+        background: linear-gradient(rgba(26, 25, 21, 0.3) 100%, rgba(26, 25, 21, 0.3) 100%), url(../../images/baner-image.jpg) center/cover no-repeat;
+        padding: 3.8rem 0;
+    }
+}

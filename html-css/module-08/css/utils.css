@@ -1,0 +1,82 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;  
+    height: auto;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration-line: none;
+    color: inherit;
+}
+
+.wrapper {
+    min-width: 32rem;;
+}
+
+.container {
+    min-width: 32rem;
+    max-width: 94rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    font-family: var(--main-font-family);
+    color: var(--main-color);
+    font-weight: 700;
+    border: 0.2rem solid var(--button-color);
+    border-radius: 2rem;
+    background-color: transparent;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    padding: 1.2rem 1.8rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.section-button {
+    padding: 1.2rem 4.8rem;
+}
+
+.promo {
+    font-family: var(--main-font-family);
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.promo-description p {
+    font-family: var(--dop-font-family);
+    font-weight: 300;
+}
+
+.promo-description button {
+    background-color: var(--button-color);
+}
+
+.partners {
+    font-family: var(--main-font-family);
+    font-weight: 700;
+    color: var(--dop-color);
+}
+
+.partners p {
+    font-family: var(--dop-font-family);
+    font-weight: 300;
+    color: var(--dop-text-color);
+}
+
+.partners button {
+    color: var(--button-color);
+}
