@@ -21,13 +21,16 @@
 .partner-foto {
     position: relative;
     width: 12rem;
-    height: 12.2rem;
+    height: 12rem;
     margin: 0 auto;
     margin-bottom: 2rem;
+    background-color: blue;
 }
 
-.partner-foto-icon {
+.partner-foto::after {
     position: absolute;
+    display: block;
+    content: '';
     width: 4rem;
     height: 4rem;
     border: 0.4rem solid var(--main-color);
@@ -36,24 +39,25 @@
     right: 0;
     background-position: center;
     background-repeat: no-repeat;
+    z-index: 2;
 }
 
-.partner-1 {
+.partner-1::after {
     background-color: #ff4e50;
     background-image: url(../../icons/partner-1-icon.png);
 }
 
-.partner-2 {
+.partner-2::after {
     background-color: #ffa507;
     background-image: url(../../icons/partner-2-icon.png);
 }
 
-.partner-3 {
+.partner-3::after {
     background-color: #1cd7ad;
     background-image: url(../../icons/partner-3-icon.png);
 }
 
-.partner-4 {
+.partner-4::after {
     background-color: #4e73db;
     background-image: url(../../icons/partner-4-icon.png);
 }
@@ -72,11 +76,8 @@ figcaption p {
 
 @media (min-width: 48rem) {
    
-    .container {
-        width: 49rem;
-    }
-
     .partners {
+        width: 49rem;
         padding-bottom: 4rem;
     }
 

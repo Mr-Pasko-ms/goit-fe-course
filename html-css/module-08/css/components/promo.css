@@ -1,6 +1,19 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
 .promo {
-    padding-top: 2rem;
+    position: relative;
+    padding-top: 22.6rem;
     background: linear-gradient(rgba(26, 25, 21, 0.3) 100%, rgba(26, 25, 21, 0.3) 100%), url(../../images/baner-image-mobile.jpg) center/cover no-repeat;
+}
+
+.navigation {
+    padding-top: 2rem;
 }
 
 .registration {
@@ -20,11 +33,10 @@
     border-color: var(--main-color);
 }
 
-h1 {
+h1 a {
     font-size: 2rem;
     line-height: 2.4rem;
     text-transform: uppercase;
-    margin-bottom: 3.8rem;
 }
 
 .promo-description h2 {
@@ -40,14 +52,17 @@ h1 {
     margin-bottom: 2rem;
 }
 
-.promo-description button {
+.promo-description a {
     margin-bottom: 14rem;
 }
 
 @media (min-width: 48rem) {
     
+    .container {
+        padding-left: 3.8rem;
+    }
+
     .promo {
-        padding: 3.6rem;
         background: linear-gradient(rgba(26, 25, 21, 0.3) 100%, rgba(26, 25, 21, 0.3) 100%), url(../../images/baner-image-tablet.jpg) center/cover no-repeat;
     }
 
@@ -64,7 +79,7 @@ h1 {
     }
 
     .registration li {
-        margin-bottom: 14.8rem;
+        /* margin-bottom: 14.8rem; */
     }
 
     .promo-description h2 {
@@ -79,7 +94,7 @@ h1 {
         margin-bottom: 3.8rem;
     }
 
-    .section-button {
+    .section-link {
         padding: 1.4rem 2rem;
     }
 }
@@ -87,6 +102,9 @@ h1 {
 @media (min-width: 58.7rem) {
     .promo {
         background: linear-gradient(rgba(26, 25, 21, 0.3) 100%, rgba(26, 25, 21, 0.3) 100%), url(../../images/baner-image.jpg) center/cover no-repeat;
-        padding: 3.8rem 0;
+    }
+
+    .navigation {
+        padding-top: 3.8rem;
     }
 }

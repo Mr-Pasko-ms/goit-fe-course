@@ -16,11 +16,6 @@ img {
     margin: 0 auto;
 }
 
-a {
-    text-decoration-line: none;
-    color: inherit;
-}
-
 .wrapper {
     min-width: 32rem;;
 }
@@ -30,6 +25,13 @@ a {
     max-width: 94rem;
     margin: 0 auto;
     text-align: center;
+}
+
+a {
+    text-decoration-line: none;
+    font-family: var(--main-font-family);
+    font-weight: 700;
+    color: var(--main-color);
 }
 
 button {
@@ -46,8 +48,13 @@ button {
     cursor: pointer;
 }
 
-.section-button {
+.section-link {
+    display: inline-block;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
     padding: 1.2rem 4.8rem;
+    border: 0.2rem solid var(--button-color);
+    border-radius: 2rem;
 }
 
 .promo {
@@ -61,7 +68,7 @@ button {
     font-weight: 300;
 }
 
-.promo-description button {
+.promo-description a {
     background-color: var(--button-color);
 }
 
@@ -77,6 +84,6 @@ button {
     color: var(--dop-text-color);
 }
 
-.partners button {
+.partners a {
     color: var(--button-color);
 }
