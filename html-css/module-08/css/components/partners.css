@@ -21,10 +21,8 @@
 .partner-foto {
     position: relative;
     width: 12rem;
-    height: 12rem;
     margin: 0 auto;
     margin-bottom: 2rem;
-    background-color: blue;
 }
 
 .partner-foto::after {

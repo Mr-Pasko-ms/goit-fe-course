@@ -59,7 +59,11 @@ h1 a {
 @media (min-width: 48rem) {
     
     .container {
-        padding-left: 3.8rem;
+        padding: 0 3.8rem;
+    }
+
+    .registration li {
+        margin-bottom: 0;
     }
 
     .promo {
@@ -71,15 +75,12 @@ h1 a {
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: flex-start;
+        padding-top: 3.8rem;
     }
 
     h1 {
         margin-top: 1rem;
         margin-bottom: 0;
-    }
-
-    .registration li {
-        /* margin-bottom: 14.8rem; */
     }
 
     .promo-description h2 {
@@ -100,11 +101,8 @@ h1 a {
 }
 
 @media (min-width: 58.7rem) {
+    
     .promo {
         background: linear-gradient(rgba(26, 25, 21, 0.3) 100%, rgba(26, 25, 21, 0.3) 100%), url(../../images/baner-image.jpg) center/cover no-repeat;
-    }
-
-    .navigation {
-        padding-top: 3.8rem;
     }
 }
