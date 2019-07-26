@@ -16,16 +16,16 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../fonts/Roboto/RobotoRegular.woff') format('woff'),
-         url('../fonts/Roboto/RobotoRegular.woff2') format('woff2');
+    src: url('../fonts/Roboto/RobotoRegular/RobotoRegular.woff') format('woff'),
+         url('../fonts/Roboto/RobotoRegular/RobotoRegular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../fonts/Roboto/RobotoLight.woff') format('woff'),
-         url('../fonts/Roboto/RobotoLight.woff2') format('woff2');
+    src: url('../fonts/Roboto/RobotoLight/RobotoLight.woff') format('woff'),
+         url('../fonts/Roboto/RobotoLight/RobotoLight.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
 }
