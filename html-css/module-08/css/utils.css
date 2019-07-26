@@ -16,12 +16,7 @@ img {
     margin: 0 auto;
 }
 
-.wrapper {
-    min-width: 32rem;;
-}
-
 .container {
-    min-width: 32rem;
     max-width: 94rem;
     margin: 0 auto;
     text-align: center;
@@ -78,7 +73,7 @@ button {
     color: var(--dop-color);
 }
 
-.partners p {
+.partners figcaption p {
     font-family: var(--dop-font-family);
     font-weight: 300;
     color: var(--dop-text-color);
