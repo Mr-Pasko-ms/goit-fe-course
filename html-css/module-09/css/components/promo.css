@@ -56,17 +56,8 @@ h1 a {
     margin-bottom: 14rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
     
-    .container {
-        padding-left: 3.8rem;
-        padding-right: 3.8rem;
-    }
-
-    .navigation {
-        padding-top: 3.8rem;
-    }
-
     .registration li {
         margin-bottom: 0;
     }
@@ -75,11 +66,12 @@ h1 a {
         background: linear-gradient(rgba(26, 25, 21, 0.3) 100%, rgba(26, 25, 21, 0.3) 100%), url(../../images/baner-image-tablet.jpg) center/cover no-repeat;
     }
 
-    .navigation-row {
+    .navigation {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: flex-start;
+        padding: 3.8rem;
     }
 
     h1 {
@@ -104,7 +96,7 @@ h1 a {
     }
 }
 
-@media (min-width: 940px) {
+@media (min-width: 58.7rem) {
     
     .promo {
         background: linear-gradient(rgba(26, 25, 21, 0.3) 100%, rgba(26, 25, 21, 0.3) 100%), url(../../images/baner-image.jpg) center/cover no-repeat;

@@ -48,6 +48,7 @@ button {
     padding: 1.2rem 3.5rem;
     border: 0.2rem solid var(--button-color);
     border-radius: 2rem;
+    text-align: center;
 }
 
 .promo {
