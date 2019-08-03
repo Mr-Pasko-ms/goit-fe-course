@@ -56,7 +56,7 @@ h1 a {
     margin-bottom: 14rem;
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 768px) {
     
     .registration li {
         margin-bottom: 0;
@@ -96,7 +96,7 @@ h1 a {
     }
 }
 
-@media (min-width: 58.7rem) {
+@media (min-width: 992px) {
     
     .promo {
         background: linear-gradient(rgba(26, 25, 21, 0.3) 100%, rgba(26, 25, 21, 0.3) 100%), url(../../images/baner-image.jpg) center/cover no-repeat;

@@ -14,6 +14,8 @@ html {
 img {
     display: block;
     max-width: 100%;  
+    height: auto;
+    margin: 0 auto;
 }
 
 .container {
@@ -38,12 +40,12 @@ h1 {
     align-items: flex-end;
 }
 
-.site-nav {
+.navigation-menu {
     display: flex;
     justify-content: space-between;
 }
 
-.site-nav li {
+.navigation-menu-item {
     font: 400 14px/17px 'Montserrat', san-serif;
     color: #95e1d3;
     text-transform: uppercase;
@@ -51,15 +53,15 @@ h1 {
     transition: color 200ms linear;
 }
 
-.site-nav li:last-child {
+.navigation-menu-item:last-child {
     margin-right: 0;
 }
 
-.site-nav li:hover {
+.navigation-menu-item:hover {
     color: #f38181;
 }
 
-.site-nav li::after {
+.navigation-menu-item::after {
     display: block;
     content : '';
     margin: 0 auto;
@@ -71,8 +73,13 @@ h1 {
     transition: opacity 200ms linear;
 }
 
-.site-nav li:hover::after {
+.navigation-menu-itemsite-nav li:hover::after {
     opacity: 1;
+}
+
+.banner {
+    background: -webkit-linear-gradient( 90deg, #fce38a 0%, #f38181 100%), url(../images/homework-10.jpg) cover center;
+    opacity: 0.9;;
 }
 
 .services {
