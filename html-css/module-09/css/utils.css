@@ -27,6 +27,11 @@ a {
     color: var(--main-color);
 }
 
+.row {
+    margin: 0;
+    padding: 0;
+}
+
 button {
     font-family: var(--main-font-family);
     color: var(--main-color);
@@ -45,7 +50,7 @@ button {
     display: inline-block;
     font-size: 1.4rem;
     line-height: 1.7rem;
-    padding: 1.2rem 3.5rem;
+    padding: 1.2rem 3rem;
     border: 0.2rem solid var(--button-color);
     border-radius: 2rem;
     text-align: center;

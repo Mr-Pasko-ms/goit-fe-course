@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/MontserratBold/MontserratBold.woff') format('woff'),
+         url('../fonts/Montserrat/MontserratBold/MontserratBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/MontserratRegular/MontserratRegular.woff') format('woff'),
+         url('../fonts/Montserrat/MontserratRegular/MontserratRegular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/RobotoRegular/RobotoRegular.woff') format('woff'),
+         url('../fonts/Roboto/RobotoRegular/RobotoRegular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/RobotoLight/RobotoLight.woff') format('woff'),
+         url('../fonts/Roboto/RobotoLight/RobotoLight.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KaushanScript';
+    src: url('../fonts/KaushanScript/kaushan-script-v8-latin-regular.woff') format('woff'),
+         url('../fonts/KaushanScript/kaushan-script-v8-latin-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}

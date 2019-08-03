@@ -1,0 +1,12 @@
+:root {
+    --main-color: #ffffff;
+    --dop-color: #333333;
+    --dop-text-color: #999999;
+    --hover-color: #fce38a;
+    --dop-hover-color: #f38181;
+    --background-color: #95e1d3;;
+    --main-font: 'Montserrat';
+    --dop-font: 'Roboto';
+    --dop-title-font: 'KaushanScript';
+    --gradient: linear-gradient(0deg, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+}
