@@ -1,5 +1,6 @@
 .partners {
-    padding: 6.8rem 0 5.8rem;
+    padding-top: 6.8rem;
+    padding-bottom: 5.8rem;
 }
 
 .partners h2 {
@@ -107,6 +108,7 @@ figcaption p {
 @media (min-width: 992px) {
 
     .partners {
-        padding: 7.2rem 0;
+        padding-top: 7.2rem;
+        padding-bottom: 7.2rem;
     }
 }
