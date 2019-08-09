@@ -1,8 +1,9 @@
-@import url('./normalize.scss');
-@import url('./main/fonts.scss');
-@import url('./main/vars.scss');
-@import url('./main/main.scss');
-@import url('./sections/header.scss');
-@import url('./sections/services.scss');
-@import url('./sections/team.scss');
-@import url('./sections/footer.scss');
+@import 'reset';
+@import 'main/fonts';
+@import 'main/vars';
+@import 'main/main';
+@import 'selectors';
+@import 'sections/header';
+@import 'sections/services';
+@import 'sections/team';
+@import 'sections/footer';

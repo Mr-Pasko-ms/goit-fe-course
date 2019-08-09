@@ -26,15 +26,13 @@
 }
 
 .services__list {
-  display: flex;
+  @extend %flex-between;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .services__item {
-  display: flex;
-  justify-content: space-between;
-  width: 380px;
+  @extend %flex-between;
+  width: 32%;
   margin-right: 20px;
   margin-bottom: 100px;
 }

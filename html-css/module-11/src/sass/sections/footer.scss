@@ -1,6 +1,5 @@
 .footer {
-  display: flex;
-  justify-content: space-between;
+  @extend %flex-between;
   align-items: center;
   padding-top: 20px;
   font: 400 14px $main-font;
@@ -14,7 +13,7 @@
 
 .footer__form {
   display: flex;
-  width: 380px;
+  width: 32%;
   justify-content: flex-end;
 }
 
