@@ -1,4 +1,8 @@
-/*
-   Import partials below
-*/
-@import './normalize';
+@import url('./normalize.scss');
+@import url('./main/fonts.scss');
+@import url('./main/vars.scss');
+@import url('./main/main.scss');
+@import url('./sections/header.scss');
+@import url('./sections/services.scss');
+@import url('./sections/team.scss');
+@import url('./sections/footer.scss');

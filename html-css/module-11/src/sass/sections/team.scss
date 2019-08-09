@@ -1,0 +1,105 @@
+.team__text {
+  text-align: center;
+  margin: 0 130px 92px;
+  font: 400 15px/24px $dop-font;
+  color: $dop-text-color;
+}
+
+.team__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team__item {
+  width: 380px;
+  margin-bottom: 82px;
+  text-align: center;
+}
+
+.team-author__foto {
+  position: relative;
+  background-color: $background-color;
+  transition: transform 200ms linear;
+}
+
+.team-author__overlay {
+  display: none;
+  position: absolute;
+  background-image: $gradient;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  box-shadow: 10px 10px 0px 0px $background-color;
+}
+
+.team-author__foto:hover .team-author__overlay {
+  display: block;
+}
+
+.team-author__foto:hover {
+  transform: translate(-10px, -10px);
+}
+
+.socials__list {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.socials__item {
+  width: 56px;
+  height: 56px;
+  background-color: $hover-color;
+  margin-right: 1px;
+  transition: background-color 200ms linear;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__link {
+  line-height: 56px;
+}
+
+.socials__icon {
+  width: 26px;
+  height: 26px;
+  vertical-align: middle;
+  fill: $dop-hover-color;
+  transition: fill 200ms linear;
+}
+
+.socials__item:hover {
+  background-color: $dop-hover-color;
+}
+
+.socials__item:hover .socials__icon {
+  fill: $main-color;
+}
+
+.team-author__title {
+  font: 400 14px $main-font;
+  color: $dop-color;
+  text-transform: uppercase;
+  margin-top: 28px;
+}
+
+.team-author__desc {
+  font: 300 15px/24px $dop-font;
+  font-style: italic;
+  color: $dop-text-color;
+  margin: 14px 0 0;
+  text-transform: capitalize;
+}
+
+.team::after {
+  display: block;
+  content: '';
+  background-color: $footer-line-color;
+  height: 1px;
+}
